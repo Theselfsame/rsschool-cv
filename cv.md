@@ -41,16 +41,16 @@ function mygcd(x,y){
 
 ***
 
-WORK EXPERIENCE.
+#### WORK EXPERIENCE.
 I have no experience in the IT industry.  
 
 ***
 
-EDUCATION.
+#### EDUCATION.
 "Belarusian State Technological University". Graduated in 2015. Qualification of Mechanical Engineer.  
 
 ***
 
-LANGUAGE SKILLS.
+#### LANGUAGE SKILLS.
 English, level A2.
 
