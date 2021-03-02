@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 986px;
+    margin: auto;
+    background-color: darkgreen;
+}
+.left_block {
+    background-color:#B49578;
+    width: 270px;
+
+}
+.right_block {
+    background-color: #F2DFB4;
+    width: 716px;
+}
+.personal {
+    padding: 0px 5px 0px 20px;
+}
+.footer {
+    background-color: rgb(112, 32, 76);
+    width:986px;
+}
