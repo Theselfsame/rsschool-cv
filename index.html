@@ -2,14 +2,16 @@
 <html lang ="en">
   <head>
     <title>CV</title>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/style.css">
   </head>
   <body>
     <div class="container">
-      <div class="left_block">
+      <article class="left_block">
         <div>
-          <img src="images/personalPhoto.jpg" alt="photo" width="270">
+          <img id="image" src="images/personalPhoto.jpg" alt="photo" width="270">
         </div>
         <div class="personal">
           <h3>PERSONAL INFORMATION.</h3>
@@ -19,61 +21,68 @@
           </ul>
           <h3>CONTACTS.</h3>
           <ul>
-            <li>e-mail: matiushkin.s@gmail.com</li>
-            <li>discord: Selefais#5209 </li>
+            <li><strong>e-mail:</strong> matiushkin.s@gmail.com</li>
+            <li id="discord"><strong>discord:</strong> Selefais#5209</li>
           </ul>
           <h3>PERSONALITY.</h3>
           <p>The main goal is to fulfill yourself as a person.
            I believe that programming provides great opportunities for this.  </p>
         </div>
-    </div>
-    <div class="right_block">
-      <h1>Siarhei Matsiushkin</h1>
-      <hr>
-      <section>
-        <h3>SKILLS.</h3>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Javascript</li>
-          <li>Git/Github</li>
-          <li>Python</li>
-        </ul>
-      </section>
-      <hr>
-      <section>
-        <h3>CODE SAMPLE.</h3>
-        <p>Find the greatest common divisor of two positive integers.</p>
-        <p>function mygcd(x,y){
-          let nod;
-          if (x >= y) {
+      </article>
+      <article class="right_block">
+        <header id="header">
+          <h1>SIARHEI MATSIUSHKIN</h1>
+        </header>
+        <hr>
+        <section class="section_r">
+         <h3>SKILLS.</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>Git/Github</li>
+            <li>Python</li>
+          </ul>
+        </section>
+        <hr>
+        <section class="section_r">
+          <h3>CODE SAMPLE.</h3>
+          <p><i>Find the greatest common divisor of two positive integers.</i></p>
+            <pre>        function mygcd(x, y) { 
+            let nod;
+            if (x >= y) {
               nod = y;
             }
             else if (y >= x) {
               nod = x;
             }
-          while (x/nod != Math.ceil(x/nod) || (y/nod != Math.ceil(y/nod) )) {
-          nod = nod - 1;
+            while (x / nod != Math.ceil(x / nod) || (y / nod != Math.ceil(y / nod) )) {
+              nod = nod - 1;
             }
-          return nod;
-        }</p>
-      </section>
+            return nod;
+          }
+            </pre>
+        </section>
         <hr>
-      <section>
-        <h3>WORK EXPERIENCE.</h3>
-        <p>I have no experience in the IT industry.</p>
+        <section class="section_r">
+          <h3>WORK EXPERIENCE.</h3>
+          <p>I have no experience in the IT industry.</p>
+        </section>
         <hr>
-      </section>
-      <section>
-        <h3>EDUCATION.</h3>
-        <p>"Belarusian State Technological University". Graduated in 2015. Qualification of Mechanical Engineer.</p>
+        <section class="section_r">
+          <h3>EDUCATION.</h3>
+          <p>"Belarusian State Technological University". Graduated in 2015. Qualification of Mechanical Engineer.</p>
+        </section>
         <hr>
-        <h3>LANGUAGE SKILLS.</h3>
-        <p>English, level A2.</p>
-      </section>
-    </div>
-    <footer class="footer">
-    </footer>
+        <section class="section_r">
+          <h3>LANGUAGE SKILLS.</h3>
+          <p>English, level A2.</p>
+        </section>
+      </article>
+      <footer id="footer">
+        <a href= "https://github.com/Theselfsame"><img id="github" src="images/github.jpeg" alt="github"></a> 
+        <a href= "https://rs.school"><img id="rschool" src="images/rschool.jpg" alt="Rschool"></a>
+      </footer>
     </div>
   </body>
 </html>
