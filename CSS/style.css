@@ -1,0 +1,47 @@
+.container {
+    font-family: sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    width: 986px;
+    margin: auto;
+    background-color: darkgreen;
+}
+.left_block {
+    background-color:#B49578;
+    width: 270px;
+
+}
+.right_block {
+    background-color: #F2DFB4;
+    width: 716px;
+}
+.personal {
+    padding: 0px 5px 0px 20px;
+}
+.section_r {
+    padding-left: 35px;
+}
+#image {
+    border-bottom:2px solid #000;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+}
+#header {
+    background-color: #F2DFB4;
+    padding-left: 35px;
+}
+#footer {
+    width: 986px;
+    height: 100px;
+    background-color: white;
+}
+#github {
+    padding-left: 40%;
+    height: 75px;
+}
+#rschool {
+    height: 75px;
+}
+#discord {
+    margin-right: 40px;
+}
