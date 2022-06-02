@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="container">
+        <header>
+            <h1 class="name">Siarhei Matsiushkin</h1>
+            <img class="image" src="image.jpg" alt="image">
+        </header>
+        <main>
+            <section class="about">
+                <div>
+                    <h3>PERSONAL INFORMATION.</h3>
+                    <ul>
+                        <li>Date of Birth: 01.07.1989</li>
+                        <li>Email: matiushkin.s@gmail.com</li>
+                        <li>Discord: Selefais#5209</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>PERSONALITY.</h3>
+                    <p>The main goal is to fulfill yourself as a person. <br> I believe that programming provides great opportunities for this.</p>
+                </div>
+            </section>
+            <div class="skills">
+                <article>
+                    <h3>SKILLS.</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                        <li>Git/Github</li>
+                    </ul>
+                </article>
+                <article>
+                    <h3>CODE SAMPLE.</h3>
+                    <p>Find the greatest common divisor of two positive integers.</p>
+                    <pre>
+                        function mygcd(x,y){
+                            let nod;
+                            if (x >= y) {
+                              nod = x;
+                            } 
+                            else if (y >= x) {
+                              nod = y;
+                            }
+                            while (x / nod != Math.ceil(x / nod) || (y / nod != Math.ceil(y / nod))) {
+                              nod = nod - 1;
+                            }
+                            return nod;
+                          } 
+                        </pre>
+                </article>
+                <article>
+                    <h3>WORK EXPERIENCE.</h3>
+                    <p>I have no experience in the IT industry. </p>
+                </article>
+                <article>
+                    <h3>EDUCATION.</h3>
+                    <p>"Belarusian State Technological University". Graduated in 2015. Qualification of Mechanical Engineer.</p>
+                </article>
+            </div>
+        </main>
+        <footer>
+            <section id="language">
+                <h3>LANGUAGE SKILLS.</h3>
+                <p>English, level A2.</p>
+            </section>
+            <div class="course">
+                <img class="rs_image" src="rs_school_js.svg" alt="rs_school">
+                <img class="github" src='25231.png' alt="github">
+                <a class="link" href="https://github.com/Theselfsame">Theselfsame</a>
+                <p>© 2022</p>
+            </div>
+        </footer>
+    </div>
+  </body>
+</html>
