@@ -34,11 +34,11 @@ header {
 .rs_image {
     width: 100px;
 }
+.github_image{
+    width: 80px; 
+}
 .link {
     position: relative;
     top: 15px;
     left: -20px;
-}
-.github {
-    width: 80px;
 }
