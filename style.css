@@ -1,0 +1,44 @@
+#container {
+    margin: 0 auto;
+    margin-top: -20px;
+    width: 1000px;
+    height: 1300px;
+}
+#container * {
+    margin-left: 20px;
+}
+header {
+    height: 220px;
+}
+.name {
+    padding-top: 100px;
+    padding-left: 50px;
+}
+.image {
+    position: relative;
+    left: 543px;
+    top: -126px;
+    width: 300px;
+}
+.skills {
+    margin-top: 50px;
+}
+#language {
+    margin-left: 40px;
+}
+.course {
+    display: flex;
+    margin-top: 50px;
+    padding-left: 100px;
+}
+.rs_image {
+    width: 100px;
+}
+.github_image{
+    width: 80px; 
+}
+.link {
+    position: relative;
+    top: 15px;
+    left: -20px;
+}
